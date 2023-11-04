@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>This will be my header!</p>
+    <h1>Thurman Thoma</h1>
   </div>
 </template>
 
