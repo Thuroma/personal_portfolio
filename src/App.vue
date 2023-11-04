@@ -1,12 +1,13 @@
 <template>
-  <body>
   <div id="app">
+  
+  <img src="./assets/wallpaper_background.jpg" alt="">
   
   <div class="header">
     <main-header></main-header>
   </div>
 
-  <div class="row">
+  <!-- <div class="row"> -->
 
   <div class="col d-flex align-items-center" id="projects">
       <div>
@@ -14,14 +15,13 @@
       </div>
   </div>
 
-  </div>
+  <!-- </div> -->
 
   <div class="fixed-bottom footer">
     <main-footer></main-footer>
   </div>
 
   </div>
-  </body>
 </template>
 
 <script>
@@ -47,7 +47,10 @@ export default {
   text-align: center;
   height: 100vh;
   width: 100vw;
-  background-image: url(assets/wallpaper_background.jpg);
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .header, .footer {
@@ -67,9 +70,15 @@ export default {
 }
 
 .row {
-  height: 100%;
+  height: 80%;
   width: 100%;
 }
 
+#app img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+}
 
 </style>
