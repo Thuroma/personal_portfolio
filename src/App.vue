@@ -1,17 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Header msg="Welcome to Your Vue.js App"/>
+
+  <div>
+    <h1>Thurman Thoma</h1>
+    <main-header></main-header>
+  </div>
+
+  <div>
+    <project-list></project-list>
+  </div>
+
+  <div>
+    <main-footer></main-footer>
+  </div>
+  
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import MainHeader from './components/MainHeader.vue'
+import MainFooter from './components/MainFooter.vue'
+import ProjectList from './components/ProjectList.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    MainHeader,
+    ProjectList,
+    MainFooter
+  },
+  data() {
+
   }
 }
 </script>
