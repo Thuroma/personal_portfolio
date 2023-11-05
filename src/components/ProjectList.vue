@@ -1,41 +1,53 @@
 <template>
+<div class="content">
 
-    <div class="card">
+    <span id="welcome">Welcome</span>
 
-        <div class="card-body">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    <a target="_blank" href="https://github.com/Thuroma/scout_django"><span>Scout web app</span></a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://github.com/Thuroma/scout_user_app"><span>Scout with user accounts</span></a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.figma.com/file/XeDgl79XSWcydnKrCxImkN/Serve-and-Save?type=design&node-id=0%3A1&mode=design&t=K4gmvDS0tj2TFbDx-1"><span>Neighborhood volunteer app</span></a>
-                </li>
-            </ul>
+    <h2 class="title">Project Links</h2>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <a target="_blank" href="https://github.com/Thuroma/scout_django"><span>../Scout web app/</span></a>
+        </li>
+        <li class="list-group-item">
+            <a target="_blank" href="https://github.com/Thuroma/scout_user_app"><span>../Scout with user accounts/</span></a>
+        </li>
+        <li class="list-group-item">
+            <a target="_blank" href="https://www.figma.com/file/XeDgl79XSWcydnKrCxImkN/Serve-and-Save?type=design&node-id=0%3A1&mode=design&t=K4gmvDS0tj2TFbDx-1"><span>../Neighborhood volunteer app/</span></a>
+        </li>
+    </ul>
 
-            <h2>Capstone Projects</h2>
-            <div>
-                <ul>
-                    <li>
-                        <a target="_blank" href="https://github.com/Thuroma/capstone_project_three_apis-dawite-matt-sophanda-thurman-zacharia"><span>Group search project</span></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://github.com/mctc-itec/lmn-project-group-1"><span>Group venue blog project</span></a>
-                    </li>
-                </ul>
-            </div>
-            
-            <a target="_blank" href="https://github.com/Thuroma"><span>github</span></a>
-        </div>
-
+    <h2 class="title">Capstone Projects</h2>
+    <div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <a target="_blank" href="https://github.com/Thuroma/capstone_project_three_apis-dawite-matt-sophanda-thurman-zacharia"><span>../Group search project/</span></a>
+            </li>
+            <li class="list-group-item">
+                <a target="_blank" href="https://github.com/mctc-itec/lmn-project-group-1"><span>../Group venue blog project/</span></a>
+            </li>
+        </ul>
     </div>
+
+    <h2 class="title"></h2>
+    <div>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item icon-link">
+                <a target="_blank" href="https://github.com/Thuroma/"><img href="https://github.com/Thuroma/" src="../assets/github_icon.png" alt="">github</a>
+            </li>
+            <li class="list-group-item icon-link">
+                <a target="_blank" href="https://www.linkedin.com/in/tthoma/"><img href="https://www.linkedin.com/in/tthoma/" src="../assets/linkedin_icon.png" alt="">LinkedIn</a>
+            </li>
+            <li class="list-group-item icon-link">
+                <a target="_blank" href="https://www.figma.com/files/user/1228700559470689511"><img href="https://www.figma.com/files/user/1228700559470689511" src="../assets/figma_icon.png" alt="">Figma</a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 </template>
 
 <script>
+
 export default {
     name: 'ProjectList',
 }
@@ -44,19 +56,29 @@ export default {
 
 <style scoped>
 
-.card {
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
-    backdrop-filter: blur(14px);
-    background-color: rgba(255, 255, 255, 0.2); 
-    padding: 10px;
+.content {
     text-align: left;
+    padding: 10px;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
     color: white;
 }
 
-a {
+#welcome {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 6rem;
+    color: white; 
+}
+
+a, li {
     color: white;
+    border: 2px gray;
+    background-color: rgb(0, 0, 0, 0.0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
 }
 
 </style>
