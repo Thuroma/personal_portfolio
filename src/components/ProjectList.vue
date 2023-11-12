@@ -64,13 +64,13 @@ export default {
 .title {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3rem;
-    color: white;
+    color: rgb(191,155,48);
 }
 
 #welcome {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 6rem;
-    color: white; 
+    color: rgb(191,155,48);
 }
 
 a, li {

@@ -43,7 +43,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   width: 100vw;
-  background-image: url(assets/background_image.jpg);
+  background-color: rgb(75, 75, 75);
   overflow: auto;
 }
 
