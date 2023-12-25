@@ -4,7 +4,7 @@
     
     <div class="row fixed-bottom">
     <div class="row" id="content-block">
-    <div class="col">
+    <div class="col" id="project-list">
       <div>
         <project-list></project-list>
       </div>
@@ -38,12 +38,12 @@ export default {
 <style>
 
 #app {
+  background-image: url(assets/background_1.png);
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   width: 100vw;
-  background-image: url(assets/background_image.jpg);
   overflow: auto;
 }
 
@@ -53,6 +53,12 @@ export default {
   padding: 10px;
   text-align: left;
   flex: none;
+}
+
+#project-list {
+  background: rgba(0, 0, 0, 0.205);
+  backdrop-filter: blur(10px);
+  max-width: 456px;
 }
 
 </style>
