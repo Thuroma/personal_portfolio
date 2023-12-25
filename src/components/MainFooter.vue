@@ -13,7 +13,7 @@
                 <a target="_blank" href="https://icons8.com/icon/amXjtNWVYSKP/figma">Figma</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
             </li>
             <li class="list-group-item attribution">
-                Photo by <a href="https://unsplash.com/@codioful?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Codioful (Formerly Gradienta)</a> on <a href="https://unsplash.com/photos/blue-and-yellow-digital-wallpaper-QWutu2BRpOs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                Photo by <a href="https://dribbble.com/shots/1479745-50-Free-Tessellated-Designs">Justin Prno</a>
             </li>
         </ul>
     </div>
